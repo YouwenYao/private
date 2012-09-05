@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="cd0c53e5-9c90-4e5a-bf4d-62ec7c1ee778" embeddedrepository="false">
+  <name>
+    Recording1
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="Recording1" namespace="NformTester"/>
+  <variables/>
+  <recorditems/>
+  <repository name="NformRepository" id="3e0c5f65-9093-49fd-9a9c-13a3b13623fb" rxversion="3.1.1.14266" relativepath="NformRepository.rxrep">
+    <codegen classname="NformRepository" namespace="NformTester"/>
+    <rootfolder name="_rootdummy_" id="6a87c9de-ee82-4df6-9a1d-880f145582e5"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[Recording1.UserCode.cs]]>
+  </usercodefile>
+  <references/>
+</recordtable>

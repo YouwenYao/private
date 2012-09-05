@@ -1,0 +1,337 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{1FFD7331-E52E-41B1-9446-E46F5C1A94B9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NformTester</RootNamespace>
+    <AssemblyName>NformTester</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+    <DocumentationFile>bin\Debug\NformTester.xml</DocumentationFile>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>2c24eb42-f169-4e49-b1b3-754d98ddda3b</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>b4fa2ef9-66b6-4498-959a-3f3aa3e833ba</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>78cbcc83-58a0-473f-8354-cccbceca8c33</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>8b51d8ab-b738-414a-9402-c3305fb67aac</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>14969df1-ce4a-4236-a01a-d62b6d012c7a</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>b240fdc4-6fc6-4053-a37f-779f00249dec</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>5283bef8-6972-4098-aa64-b8a4c6cd2a2e</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>71800f31-3be3-49b9-ba20-8f3a9b748eac</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>dbe534d0-ed60-4e64-b994-a1b189816485</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>e37188fd-351e-46f0-b76f-12caeb8e1785</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>3b9d33ea-609d-47a1-aac1-f57e8deb24a7</id>
+    </Reference>
+    <Reference Include="System">
+      <id>f339e608-d9ba-4816-9295-b46a243fbf89</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>b15974b1-f744-471f-98d7-d13bc81d85cd</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>b563d85f-100d-4e26-b646-85d5eb308380</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>9ca90f8b-3e20-4394-893c-604922c1bb1c</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>9b3d8b62-76e8-4c0b-ad58-5026e73977cc</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>b73cf1ec-8887-404a-beb9-9d0d3f20288e</id>
+    </Compile>
+    <Compile Include="driver\TestCaseDriver.cs">
+      <id>63aeabcc-fde4-468f-8e8b-434bd082b130</id>
+    </Compile>
+    <Compile Include="lib\LxErrorHandler.cs">
+      <id>264972d9-22f7-4c29-b4c0-5e1fa6e02f85</id>
+    </Compile>
+    <Compile Include="lib\LxGenericAction.cs">
+      <id>52d2a21d-30c6-4478-a59b-ca9c33831eb2</id>
+    </Compile>
+    <Compile Include="lib\LxIniFile.cs">
+      <id>77c043b9-d56f-4a8a-bf5c-45fe93ce2b77</id>
+    </Compile>
+    <Compile Include="lib\LxLog.cs">
+      <id>bd4b6aeb-3798-4a0b-ae85-89fafeb5911c</id>
+    </Compile>
+    <Compile Include="lib\LxParse.cs">
+      <id>d8af69bf-0351-4761-b3f2-485fd97e7b82</id>
+    </Compile>
+    <Compile Include="lib\LxScriptItem.cs">
+      <id>91335fcd-8be9-4d80-bd35-9a5a1669d5b8</id>
+    </Compile>
+    <Compile Include="lib\LxSetup.cs">
+      <id>ff389c82-b281-4f3d-90bd-0a4069d9b3a1</id>
+    </Compile>
+    <Compile Include="lib\LxTearDown.cs">
+      <id>8826ff9e-a2d1-4cad-aa13-397e6db93944</id>
+    </Compile>
+    <Compile Include="lib\LxXlsOper.cs">
+      <id>df779d0d-86e5-46e0-aeaf-ebe3ee2d4966</id>
+    </Compile>
+    <Compile Include="myTest.cs">
+      <id>6649f3a6-3e25-46be-91cb-44c7d305203f</id>
+    </Compile>
+    <Compile Include="NformRepository.cs">
+      <id>be55ff5e-522d-4087-a441-30853af41aaa</id>
+      <DependentUpon>NformRepository.rxrep</DependentUpon>
+      <BoundTo>cd2e6476-08de-4490-bccc-a5ee732b8f1b</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>fdb4287b-720b-41a3-9e42-9234d869400e</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>d9ccf80a-2856-4641-b65d-3931a32e48c3</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <id>f5dd7b01-6926-4a79-9861-aff233a2380a</id>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>d9ccf80a-2856-4641-b65d-3931a32e48c3</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <id>fa58d8d6-913d-4c50-8b31-921bf4f80dfd</id>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="GenerateAllForms.cs">
+      <id>487bbc89-1531-4597-bfda-4fd3bcead51f</id>
+    </Compile>
+    <None Include="app.config">
+      <id>788f223d-99d6-44c9-b193-94ff211120c7</id>
+    </None>
+    <None Include="Devices.ini">
+      <id>ce0d6910-b470-4d36-b5a6-42a413c3d0ad</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\ActionSet_DeletewithRightsToAllActionTypes.xlsx">
+      <id>6980a2f3-35ef-4448-9c67-64add9de90f1</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\AddDevicesFromFlatFile.xlsx">
+      <id>499a9bfd-a457-4631-bd91-c1b505f985c5</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\CheckConfigureDisplayTrendLineInPlotting.xlsx">
+      <id>8be87665-5b97-4701-be5e-aaa82a63580d</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\CheckConfigureSamplingIntervalTime.xlsx">
+      <id>2fa52f85-9c7e-43db-8c7b-aca3429146e0</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\CheckDefaultStartDate_timeAndEndDate_timeInGraphedLoggedData.xlsx">
+      <id>015d3f26-318e-4644-8d59-6a95fc19068d</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\CheckFunctionalityForGraphType.xlsx">
+      <id>fa197bb6-9337-4ab8-900b-a1051ffa3913</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\CheckGUIFunctionalityConfigureTrendingScreen.xlsx">
+      <id>fdad84be-acd2-4f32-9506-cbdd80f15419</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\CheckGUIOfPeriodComboBoxes.xlsx">
+      <id>9f5e77a8-bb13-4076-ae7e-9d61b7dc065c</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\CheckSelectingNinthDeviceParameters.xlsx">
+      <id>b5511818-3e72-4222-bf66-bbd9dc5bd288</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\ConfigurationOnDevice_properties.xlsx">
+      <id>fc904333-416e-40e8-a6a4-5e70bb2bd4fa</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\ConfigureTrendingDataPointsGridShowsWhichOne.xlsx">
+      <id>c10fdb23-9cfa-44fb-84ab-90bf86ec8b33</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\DataLoggingforOneDeviceDataPoints.xlsx">
+      <id>6a77a5fe-5a44-4efe-8c50-b34f46a46e77</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\DataLoggingOnDevicePropertiesAndTrends.xlsx">
+      <id>0bfc1a47-634c-45b4-b93d-2ffa4c3fc79d</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\DataLoggingWithMinAndMaxSampleInterval.xlsx">
+      <id>0a4d8130-464c-455e-bbb0-0875ba7d90d8</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\EditDeviceAlarmName.xlsx">
+      <id>1d0ef009-6d35-4ad7-8a12-3b41b32dd21f</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\ExecuteTrapAlarmForward.xlsx">
+      <id>9b2ee6b6-a003-4122-a01d-55742a8d2313</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\ExportOptionForExportingDevicesInFlatFile.xlsx">
+      <id>ddee8d14-cc73-4f10-a300-396bfc721ca0</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\ImportDevicesFromFiles.xlsx">
+      <id>f7fbf86c-31e6-4fe5-be57-d4245c4f49bc</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_001_InstlViewer.xlsx">
+      <id>ccc5c956-f606-47ea-a8c0-77e4fac6d245</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_002_InslSerNView.xlsx">
+      <id>439985d4-8056-48b0-b601-f725bceaf578</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_005_UninstalPrs.xlsx">
+      <id>e7b8678a-5d78-4104-b79f-94e2317ffe08</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_017_Data_Logging.xlsx">
+      <id>68428a63-ee52-41c8-8d8c-e0e55fb51d3c</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_021_AddCustomGrp.xlsx">
+      <id>8df13770-d727-4d95-bdbf-7aa012d4343c</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_024_New_user.xlsx">
+      <id>5da1deee-40de-4eed-b7a2-ac3be0a42faa</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_043_ConfigrEmail.xlsx">
+      <id>c50a2043-f436-483b-a3e7-256764b442ee</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_044_WriteFilActn.xlsx">
+      <id>371d40a1-e22b-4c6f-815d-4ab0abfe9e2e</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_054_Login.xlsx">
+      <id>46b48292-da02-4d98-b176-0f8bcfb7d30b</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_084_UserChangePwdFlag.xlsx">
+      <id>0857e7b8-3f73-4350-a1f9-dba46d4704ab</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_089_Add_Device.xlsx">
+      <id>315afc3c-9b43-4e51-9e1b-3b47ee022a91</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_090_Edit_Device.xlsx">
+      <id>29347fcd-2c18-40a5-b320-eb8bc6218a77</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_091_DeleteDevice.xlsx">
+      <id>31187701-c076-4a1f-b239-92f76c6aa5a1</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_092_SNMPGloblSet.xlsx">
+      <id>56ed063d-7a5f-46ef-bebf-d4ae45597462</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_094_Add_CopyView.xlsx">
+      <id>a1c7cd74-393d-42bf-b567-38af6250db2b</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_095_Edit_Delete_Navigation_View.xlsx">
+      <id>64b41ff1-216b-4c87-bde0-5ba46533038f</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\NformG2_TP_976_ViewAllDevices.xlsx">
+      <id>ed7a0113-8129-48fe-97e3-57f3eaa4a7e6</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\SelectInvalidDurationDateForPlottingGraphAndViewGraph.xlsx">
+      <id>ac855752-2bca-41b9-95c5-d8dfd57d43da</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="keywordscripts\TestScripts.xlsx">
+      <id>dc3efe77-47b9-49ba-baaa-19c2af620d18</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="NformRepository.rxrep">
+      <id>cd2e6476-08de-4490-bccc-a5ee732b8f1b</id>
+      <repoid>3e0c5f65-9093-49fd-9a9c-13a3b13623fb</repoid>
+      <reporootid>6a87c9de-ee82-4df6-9a1d-880f145582e5</reporootid>
+      <projectdefaultrepository>true</projectdefaultrepository>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>cd2e6476-08de-4490-bccc-a5ee732b8f1b</BoundTo>
+      <id>d9ccf80a-2856-4641-b65d-3931a32e48c3</id>
+    </None>
+    <Content Include="NformTester.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e173405b-e144-4cf5-9707-935f976643c9</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lib">
+      <id>317cdd34-c7b2-4e20-9717-0ae4887581c3</id>
+    </Folder>
+    <Folder Include="driver">
+      <id>36c3976c-7029-4a8e-9a3f-ad4c7a1653fd</id>
+    </Folder>
+    <Folder Include="keywordscripts">
+      <id>c22c281b-c0e4-4e26-974e-373f008226e1</id>
+    </Folder>
+    <Folder Include="Reports">
+      <ReportsDir>true</ReportsDir>
+      <id>5bad65ff-54b4-4b55-b5fa-e13e6e3e4a33</id>
+    </Folder>
+  </ItemGroup>
+</Project>

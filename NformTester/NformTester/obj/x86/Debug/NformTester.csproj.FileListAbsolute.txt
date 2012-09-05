@@ -1,0 +1,90 @@
+D:\我的项目\NForm\Test Automation\workplatform\NformTester\NformTester\bin\Debug\NformTester.rxtst
+D:\我的项目\NForm\Test Automation\workplatform\NformTester\NformTester\bin\Debug\NformTester.exe.config
+D:\我的项目\NForm\Test Automation\workplatform\NformTester\NformTester\bin\Debug\NformTester.exe
+D:\我的项目\NForm\Test Automation\workplatform\NformTester\NformTester\bin\Debug\NformTester.pdb
+D:\我的项目\NForm\Test Automation\workplatform\NformTester\NformTester\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\我的项目\NForm\Test Automation\workplatform\NformTester\NformTester\obj\x86\Debug\NformTester.exe
+D:\我的项目\NForm\Test Automation\workplatform\NformTester\NformTester\obj\x86\Debug\NformTester.pdb
+D:\我的项目\NForm\Test Automation\workplatform\NformTester\NformTester\bin\Debug\keywordscripts\TST_AddDevice.xls
+D:\我的项目\NForm\Test Automation\workplatform\NformTester\NformTester\bin\Debug\keywordscripts\TST_DelDevice.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\NformTester.rxtst
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\TST_AddDevice.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\TST_DelDevice.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\NformTester.exe.config
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\NformTester.exe
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\NformTester.pdb
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\obj\x86\Debug\NformTester.exe
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\obj\x86\Debug\NformTester.pdb
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_054_Login.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_091_DeleteDevice.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_024_New_user.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_094_Add_CopyView.xls
+C:\NformTester\NformTester\bin\Debug\NformTester.rxtst
+C:\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_024_New_user.xls
+C:\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_054_Login.xls
+C:\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_089_Add Device.xls
+C:\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_091_DeleteDevice.xls
+C:\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_094_Add_CopyView.xls
+C:\NformTester\NformTester\bin\Debug\keywordscripts\TST_AddDevice.xls
+C:\NformTester\NformTester\bin\Debug\keywordscripts\TST_DelDevice.xls
+C:\NformTester\NformTester\bin\Debug\NformTester.exe.config
+C:\NformTester\NformTester\bin\Debug\NformTester.exe
+C:\NformTester\NformTester\bin\Debug\NformTester.pdb
+C:\NformTester\NformTester\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\NformTester\NformTester\obj\x86\Debug\NformTester.exe
+C:\NformTester\NformTester\obj\x86\Debug\NformTester.pdb
+C:\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_002_InslSerNView.xls
+C:\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_005_UninstalPrs.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_001_InstlViewer.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_002_InslSerNView.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_005_UninstalPrs.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_092_SNMPGloblSet.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_090_Edit_Device.xls
+D:\我的项目\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_089_Add_Device.xls
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\NformTester.rxtst
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\NformTester.exe.config
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\NformTester.exe
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\NformTester.pdb
+D:\01_project\NForm\Test Automation\NformTester\NformTester\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\01_project\NForm\Test Automation\NformTester\NformTester\obj\x86\Debug\NformTester.exe
+D:\01_project\NForm\Test Automation\NformTester\NformTester\obj\x86\Debug\NformTester.pdb
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_054_Login.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_089_Add_Device.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_001_InstlViewer.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_002_InslSerNView.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_005_UninstalPrs.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_094_Add_CopyView.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_092_SNMPGloblSet.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_090_Edit_Device.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_091_DeleteDevice.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_024_New_user.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\TestScripts.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_095_Edit_Delete_Navigation_View.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_976_ViewAllDevices.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_021_AddCustomGrp.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_043_ConfigrEmail.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_044_WriteFilActn.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\NformTester.xml
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_017_Data_Logging.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\NformG2_TP_084_UserChangePwdFlag.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\DataLoggingOnDevicePropertiesAndTrends.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\DataLoggingWithMinAndMaxSampleInterval.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\EditDeviceAlarmName.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\ConfigurationOnDevice_properties.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\ImportDevicesFromFiles.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\ActionSet_DeletewithRightsToAllActionTypes.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\AddDevicesFromFlatFile.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\DataLoggingforOneDeviceDataPoints.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\ExecuteTrapAlarmForward.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\Devices.ini
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\CheckConfigureDisplayTrendLineInPlotting.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\CheckConfigureSamplingIntervalTime.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\CheckDefaultStartDate_timeAndEndDate_timeInGraphedLoggedData.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\CheckFunctionalityForGraphType.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\CheckGUIFunctionalityConfigureTrendingScreen.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\CheckGUIOfPeriodComboBoxes.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\CheckSelectingNinthDeviceParameters.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\ConfigureTrendingDataPointsGridShowsWhichOne.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\ExportOptionForExportingDevicesInFlatFile.xlsx
+D:\01_project\NForm\Test Automation\NformTester\NformTester\bin\Debug\keywordscripts\SelectInvalidDurationDateForPlottingGraphAndViewGraph.xlsx

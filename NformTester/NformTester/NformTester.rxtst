@@ -1,0 +1,126 @@
+﻿<testsuite name="NformTester" rxversion="3.1.1.14266" id="0ac6aa29-2786-479e-9a76-72fed1f11051" reportfilename="%S_%Y%M%D_%T.rxlog" reportxslfilename="" reportwriteinterval="30000ms" enabletracingscreenshots="True" description="" reportlevel="Info;20">
+  <content>
+    <testcase name="NformG2_TP_001_InstlViewer" id="0619e4b0-3cc9-40a2-905f-391b22f38b59">
+      <testmodule name="TestCaseDriver" id="27eba88b-57f1-48c5-8a02-859610beae76" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_002_InslSerNView" id="a1319e33-79bc-448a-91ad-967f7b3491cf">
+      <testmodule name="TestCaseDriver" id="5b0aa4d2-54b3-4b07-98b4-9dcb3981c18a" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_054_Login" id="3e0ac628-ddad-4f39-a46e-8ea822d29d1e">
+      <testmodule name="TestCaseDriver" id="9ff02865-0c90-4074-8a7a-c78bd87aeded" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_089_Add_Device" id="eb7cb327-ee6c-4b7f-88d5-f0f2e9a43847">
+      <testmodule name="TestCaseDriver" id="676843c1-a91d-427c-9a34-38309ba1aeb1" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_094_Add_CopyView" id="27d3b0bb-50df-41af-84d4-30f018379329">
+      <testmodule name="TestCaseDriver" id="b2f0dc91-6908-4351-b8a1-e71155dc9fc8" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_092_SNMPGloblSet" id="8dadcf87-08c7-41ee-9b13-691d00c6a351">
+      <testmodule name="TestCaseDriver" id="a87cf1ec-f56f-4694-bbc8-c0969574080e" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_090_Edit_Device" id="2c83686d-398a-4355-be96-790d18ed1f32">
+      <testmodule name="TestCaseDriver" id="75945db1-7d36-44d0-844a-a02ca0a04dae" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_091_DeleteDevice" id="a70faf39-3a47-4e3b-a792-f90c91e2eeb1">
+      <testmodule name="TestCaseDriver" id="16e83cb5-9cf0-41b0-9eb9-5b9ed45020e2" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_024_New_user" id="b85f6eec-8741-4754-bb5a-4c97b1514919">
+      <testmodule name="TestCaseDriver" id="0cb342d1-339f-48ac-bf94-3899f7d85096" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_005_UninstalPrs" id="016d6437-633e-4f7e-b6cd-cd3b61d9cdd3">
+      <testmodule name="TestCaseDriver" id="14a60f81-be4d-4c29-833f-22078b767640" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="test" id="b49c5248-5521-4369-98f1-d67f370014a2">
+      <testmodule name="myTest" id="eb7da953-e10a-4d88-9f21-28f69daa1364" ref="A201CDD0-CCDA-48AD-B091-2EB9C38E066E" type="UserCode"/>
+      <testmodule name="GenerateAllForms" id="e5865322-fb65-4ea9-b011-6c5aa2c512ba" ref="1E793A50-DA64-41A8-915C-08CBC67D8EB5" type="UserCode"/>
+    </testcase>
+    <testcase name="TestScripts" id="15542ef7-bf90-431d-8e26-f8eb1c05a42e">
+      <testmodule name="TestCaseDriver" id="047cc82b-ce0d-4b2a-83ce-5e91475749a7" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_095_Edit_Delete_Navigation_View" id="7a3e04a2-d5a2-41e7-ac02-cb2332992e35">
+      <testmodule name="TestCaseDriver" id="86f7b0e5-3b66-4efa-98d6-f8a5d9f0112a" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_976_ViewAllDevices" id="a46c4a23-3a07-40db-ba10-625d6d086b77">
+      <testmodule name="TestCaseDriver" id="1982312a-5ed5-4841-be06-10c40802e5a1" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_021_AddCustomGrp" id="4e8031a8-6110-4d12-a070-f4e0d8731a99">
+      <testmodule name="TestCaseDriver" id="cf76c3bd-3bdd-4443-8883-c03c079d426e" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_043_ConfigrEmail" id="a3e6ce66-556f-4ef1-afca-acc187a6f9e5">
+      <testmodule name="TestCaseDriver" id="46e65b4f-2bdb-4fc2-ad3a-25f3df4b172b" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_044_WriteFilActn" id="6742106a-c1d8-43ea-8f3f-bd0aefce73c4">
+      <testmodule name="TestCaseDriver" id="abcb65a0-0f66-4c56-ac37-9c77a6fa7fab" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_017_Data_Logging" id="a09bd8ad-fbfe-4ee4-ad23-ba69d50da768">
+      <testmodule name="TestCaseDriver" id="93c24256-c6b1-4b77-acc7-0c28293ec2b5" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="NformG2_TP_084_UserChangePwdFlag" id="9f55f345-94d2-43a5-988f-94529f57c50e">
+      <testmodule name="TestCaseDriver" id="6820cbea-bd35-4a2b-86ea-5e331fe3077f" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="DataLoggingOnDevicePropertiesAndTrends" id="795f3f7a-df17-4e77-9817-81a172cac581">
+      <testmodule name="TestCaseDriver" id="3f2907ff-6f02-46be-ab9c-325e708caf84" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="DataLoggingWithMinAndMaxSampleInterval" id="b22b9ae5-f14e-48a6-9cfe-31dae23e65a6">
+      <testmodule name="TestCaseDriver" id="24530423-8da7-44ee-bce6-ee395dfc4906" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="EditDeviceAlarmName" id="fc0270f9-66a7-48fe-a2ad-7cb29b15663a">
+      <testmodule name="TestCaseDriver" id="0faab297-40a3-4068-9ef4-ba2854d470ce" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="ConfigurationOnDevice_properties" id="7d11a9bc-49b9-486f-a00e-e1ca1a70101c">
+      <testmodule name="TestCaseDriver" id="fea1e140-e6ae-4889-82ed-8b50ce42b02c" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="ImportDevicesFromFiles" id="a0780a32-a236-401c-8462-889b41f123aa">
+      <testmodule name="TestCaseDriver" id="9ba452dd-885d-4f33-b0d0-ff135ffa95b7" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="ExecuteTrapAlarmForward" id="ac5bb896-276e-445a-b011-521c76045253">
+      <testmodule name="TestCaseDriver" id="fcea9fe9-def9-4725-9816-45df04c7f5c7" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="ActionSet_DeletewithRightsToAllActionTypes" id="393067e6-cfdb-415a-bd4e-c53a357ce5f0">
+      <testmodule name="TestCaseDriver" id="240fda14-7485-4429-b618-22d07af5ea09" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="DataLoggingforOneDeviceDataPoints" id="f9928c8e-c148-425b-81b4-0b3cc3831a4a">
+      <testmodule name="TestCaseDriver" id="68f8b95b-31e0-4549-9d4e-aa7d26baa7ab" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="AddDevicesFromFlatFile" id="77fea564-b8fd-4f01-b662-95481f434007">
+      <testmodule name="TestCaseDriver" id="7afa1aea-f97f-4ecc-9b95-50f9c119e2d0" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="CheckConfigureDisplayTrendLineInPlotting" id="b56d81c3-6f21-42cd-80cb-498cb89b6c81">
+      <testmodule name="TestCaseDriver" id="924601ce-d030-4c30-a779-df0013ff1adb" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="CheckConfigureSamplingIntervalTime" id="9795397e-3c5e-4a23-bc78-3abb74cb6dbe">
+      <testmodule name="TestCaseDriver" id="3bdb240f-61e5-4c29-aca0-7b9b2093f080" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="CheckDefaultStartDate_timeAndEndDate_timeInGraphedLoggedData" id="9b23d7b4-b787-4f2f-8e8f-706e13eacea5">
+      <testmodule name="TestCaseDriver" id="e5183957-8478-4889-b0dd-4c42df5e6c73" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="CheckFunctionalityForGraphType" id="18d748ab-e411-4ef1-a334-44ada4ebc86d">
+      <testmodule name="TestCaseDriver" id="e1e2820a-7ae3-43d2-8bbf-49a3630fbe73" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="CheckGUIFunctionalityConfigureTrendingScreen" id="2226fcfc-9d15-4146-b399-aa2bf0ed941b">
+      <testmodule name="TestCaseDriver" id="e8d0fb4e-b1f7-4ae8-a614-d5d282235de5" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="CheckGUIOfPeriodComboBoxes" id="bf0be94b-edd1-4c0c-bf6e-6b1ec3c14811">
+      <testmodule name="TestCaseDriver" id="9327a694-c53d-4b56-bae7-cd13a783375f" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="CheckSelectingNinthDeviceParameters" id="75648db1-9a32-4b1b-8830-38ebe8adf041">
+      <testmodule name="TestCaseDriver" id="8c82882b-04bb-458b-becf-173b62b1b9f2" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="ConfigureTrendingDataPointsGridShowsWhichOne" id="22007566-2581-499e-8874-1b057061c9a5">
+      <testmodule name="TestCaseDriver" id="6bfa205b-ed5b-44b3-b662-a4e109e60812" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="ExportOptionForExportingDevicesInFlatFile" id="48747801-61e1-4a1d-b28e-271a3075d055">
+      <testmodule name="TestCaseDriver" id="05af630c-07c4-4d23-8e81-ecc6f8d15b42" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+    <testcase name="SelectInvalidDurationDateForPlottingGraphAndViewGraph" id="b40ef1e3-a617-4ff5-a64b-5c88f6db6e4a">
+      <testmodule name="TestCaseDriver" id="f6c9895e-c419-411f-87fd-ab7c80386f7b" ref="78CE2FBF-D204-4698-98BF-68118D374E9F" type="UserCode"/>
+    </testcase>
+  </content>
+  <testconfigurations default="TestRun">
+    <testconfiguration name="TestRun">
+      <testcase id="0ac6aa29-2786-479e-9a76-72fed1f11051"/>
+      <testcase id="b49c5248-5521-4369-98f1-d67f370014a2"/>
+    </testconfiguration>
+  </testconfigurations>
+  <references/>
+</testsuite>
